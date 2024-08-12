@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phone Number Validator</title>
+
+    <style>
+        body{
+            width: fit-content;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            padding: 5px;
+            height: fit-content;
+        }
+        form input{
+            margin: 5px;
+            padding: 2px;
+        }
+    </style>
+</head>
+<body>
+<h1>Phone Number Validator</h1>
+<fieldset>
+<form action="/index-phone" method="GET">
+    <label>Name: <input type="text" id="name" name="name" placeholder="first, last"></label>
+    <label>Phone Number: <input type="tel" id="phone"  name="number" placeholder="ddd-ddd-dddd" required></label>
+    <button type="submit" value="Submit">Submit</button>
+</form>
+</fieldset>
+</body>
+</html>
